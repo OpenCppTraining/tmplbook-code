@@ -1,0 +1,347 @@
+chapter	file	kind	target	status	note
+basics	listings/basics/arrays.cpp	exe	basics_arrays	ok	
+basics	listings/basics/cref.cpp	exe	basics_cref	ok	
+basics	listings/basics/errornovel1.cpp	exe	basics_errornovel1	expected-failure:intentional	book shows a deliberately wrong predicate to illustrate a huge error message
+basics	listings/basics/errornovel2.cpp	exe	basics_errornovel2	ok	
+basics	listings/basics/foldtraverse.cpp	exe	basics_foldtraverse	ok	
+basics	listings/basics/foreach.cpp	exe	basics_foreach	ok	
+basics	listings/basics/foreachinvoke.cpp	exe	basics_foreachinvoke	ok	
+basics	listings/basics/max1.cpp	exe	basics_max1	ok	
+basics	listings/basics/max2.cpp	exe	basics_max2	ok	
+basics	listings/basics/max3ref.cpp	exe	basics_max3ref	ok	
+basics	listings/basics/max3val.cpp	exe	basics_max3val	ok	
+basics	listings/basics/max4.cpp	exe	basics_max4	ok	
+basics	listings/basics/message.cpp	exe	basics_message	ok	
+basics	listings/basics/move1.cpp	exe	basics_move1	ok	
+basics	listings/basics/move2.cpp	exe	basics_move2	ok	
+basics	listings/basics/myfirst.cpp	object	basics_myfirst	ok	
+basics	listings/basics/myfirstmain.cpp	exe	basics_myfirstmain	expected-failure:intentional	deliberate link error: template definition lives in myfirst.cpp (separate compilation demo)
+basics	listings/basics/referror1.cpp	exe	basics_referror1	expected-failure:intentional	deliberate errors (see ERROR comments in source)
+basics	listings/basics/referror2.cpp	exe	basics_referror2	expected-failure:intentional	deliberate compile-time ERROR (see comments in source)
+basics	listings/basics/specialmemtmpl1.cpp	exe	basics_specialmemtmpl1	ok	
+basics	listings/basics/specialmemtmpl3.cpp	exe	basics_specialmemtmpl3	ok	
+basics	listings/basics/stack1test.cpp	exe	basics_stack1test	ok	
+basics	listings/basics/stack3test.cpp	exe	basics_stack3test	ok	
+basics	listings/basics/stack9test.cpp	exe	basics_stack9test	ok	
+basics	listings/basics/stackauto.cpp	exe	basics_stackauto	ok	
+basics	listings/basics/stacknontype.cpp	exe	basics_stacknontype	ok	
+basics	listings/basics/tmplparamref.cpp	exe	basics_tmplparamref	ok	
+basics	listings/basics/varusing.cpp	exe	basics_varusing	ok	
+basics	listings/basics/addspace.hpp	header-driver	basics_addspace_01	ok	
+basics	listings/basics/addvalue.hpp	header-driver	basics_addvalue_02	ok	
+basics	listings/basics/arrays.hpp	header-driver	basics_arrays_03	ok	
+basics	listings/basics/boolstring.hpp	header-driver	basics_boolstring_04	ok	
+basics	listings/basics/byref.hpp	header-driver	basics_byref_05	expected-failure:fragment	listing fragment, not self-contained
+basics	listings/basics/byvalue.hpp	header-driver	basics_byvalue_06	expected-failure:fragment	listing fragment, not self-contained
+basics	listings/basics/foreach.hpp	header-driver	basics_foreach_07	ok	
+basics	listings/basics/foreachinvoke.hpp	header-driver	basics_foreachinvoke_08	ok	
+basics	listings/basics/invoke.hpp	header-driver	basics_invoke_09	ok	
+basics	listings/basics/invokeret.hpp	header-driver	basics_invokeret_10	ok	
+basics	listings/basics/isprime.hpp	header-driver	basics_isprime_11	ok	
+basics	listings/basics/isprime11.hpp	header-driver	basics_isprime11_12	ok	
+basics	listings/basics/isprime14.hpp	header-driver	basics_isprime14_13	ok	
+basics	listings/basics/len1.hpp	header-driver	basics_len1_14	ok	
+basics	listings/basics/len2.hpp	header-driver	basics_len2_15	ok	
+basics	listings/basics/lessarray.hpp	header-driver	basics_lessarray_16	ok	
+basics	listings/basics/lessstring.hpp	header-driver	basics_lessstring_17	ok	
+basics	listings/basics/max1.hpp	header-driver	basics_max1_18	ok	
+basics	listings/basics/maxauto.hpp	header-driver	basics_maxauto_19	ok	
+basics	listings/basics/maxcommon.hpp	header-driver	basics_maxcommon_20	ok	
+basics	listings/basics/maxconstexpr.hpp	header-driver	basics_maxconstexpr_21	ok	
+basics	listings/basics/maxdecltype.hpp	header-driver	basics_maxdecltype_22	ok	
+basics	listings/basics/maxdecltypedecay.hpp	header-driver	basics_maxdecltypedecay_23	ok	
+basics	listings/basics/maxdefault1.hpp	header-driver	basics_maxdefault1_24	ok	
+basics	listings/basics/maxdefault3.hpp	header-driver	basics_maxdefault3_25	ok	
+basics	listings/basics/maxdefault4.hpp	header-driver	basics_maxdefault4_26	ok	
+basics	listings/basics/maxdefaultdeclval.hpp	header-driver	basics_maxdefaultdeclval_27	ok	
+basics	listings/basics/myfirst.hpp	header-driver	basics_myfirst_28	ok	
+basics	listings/basics/myfirst2.hpp	header-driver	basics_myfirst2_29	ok	
+basics	listings/basics/printcoll.hpp	header-driver	basics_printcoll_30	ok	
+basics	listings/basics/specialmemtmpl2.hpp	header-driver	basics_specialmemtmpl2_31	ok	
+basics	listings/basics/specialmemtmpl3.hpp	header-driver	basics_specialmemtmpl3_32	ok	
+basics	listings/basics/stack1.hpp	header-driver	basics_stack1_33	ok	
+basics	listings/basics/stack2.hpp	header-driver	basics_stack2_34	ok	
+basics	listings/basics/stack3.hpp	header-driver	basics_stack3_35	ok	
+basics	listings/basics/stack5assign.hpp	header-driver	basics_stack5assign_36	expected-failure:fragment	listing fragment, not self-contained
+basics	listings/basics/stack5decl.hpp	header-driver	basics_stack5decl_37	expected-failure:fragment	listing fragment, not self-contained
+basics	listings/basics/stack6assign.hpp	header-driver	basics_stack6assign_38	expected-failure:fragment	listing fragment, not self-contained
+basics	listings/basics/stack6decl.hpp	header-driver	basics_stack6decl_39	expected-failure:fragment	listing fragment, not self-contained
+basics	listings/basics/stack7assign.hpp	header-driver	basics_stack7assign_40	expected-failure:fragment	listing fragment, not self-contained
+basics	listings/basics/stack7decl.hpp	header-driver	basics_stack7decl_41	expected-failure:fragment	listing fragment, not self-contained
+basics	listings/basics/stack8decl.hpp	header-driver	basics_stack8decl_42	expected-failure:fragment	listing fragment, not self-contained
+basics	listings/basics/stack9.hpp	header-driver	basics_stack9_43	ok	
+basics	listings/basics/stackauto.hpp	header-driver	basics_stackauto_44	ok	
+basics	listings/basics/stackdeduce1.hpp	header-driver	basics_stackdeduce1_45	ok	
+basics	listings/basics/stacknontype.hpp	header-driver	basics_stacknontype_46	ok	
+basics	listings/basics/stackpartspec.hpp	header-driver	basics_stackpartspec_47	ok	
+basics	listings/basics/varprint1.hpp	header-driver	basics_varprint1_48	ok	
+basics	listings/basics/varprint2.hpp	header-driver	basics_varprint2_49	ok	
+basics	listings/basics/boolstringgetbool.hpp	header-driver	basics_boolstringgetbool_50	ok	prereqs: basics/boolstring.hpp
+bridge	listings/bridge/forupto1.cpp	exe	bridge_forupto1	ok	
+bridge	listings/bridge/forupto4.cpp	exe	bridge_forupto4	expected-failure:fragment	functionptr.hpp is a listing fragment (needs FunctorBridge declared first)
+bridge	listings/bridge/forupto2.hpp	header-driver	bridge_forupto2_01	ok	
+bridge	listings/bridge/forupto3.hpp	header-driver	bridge_forupto3_02	ok	
+bridge	listings/bridge/functorbridge.hpp	header-driver	bridge_functorbridge_03	ok	
+bridge	listings/bridge/isequalitycomparable.hpp	header-driver	bridge_isequalitycomparable_04	ok	
+bridge	listings/bridge/tryequals.hpp	header-driver	bridge_tryequals_05	ok	
+bridge	listings/bridge/functionptr.hpp	header-driver	bridge_functionptr_06	ok	prereqs: bridge/functorbridge.hpp
+bridge	listings/bridge/specificfunctorbridge.hpp	header-driver	bridge_specificfunctorbridge_07	ok	prereqs: bridge/functorbridge.hpp
+debugging	listings/debugging/tracertest.cpp	exe	debugging_tracertest	ok	
+debugging	listings/debugging/hasderef.hpp	header-driver	debugging_hasderef_01	ok	
+debugging	listings/debugging/tracer.hpp	header-driver	debugging_tracer_02	ok	
+deduce	listings/deduce/aliastemplate.cpp	object	deduce_aliastemplate	expected-failure:fragment	snippet: missing #include <deque> and a definition of Stack
+deduce	listings/deduce/initlist.cpp	exe	deduce_initlist	expected-failure:intentional	deliberate ERROR: T deduced to both char and int
+deduce	listings/deduce/resulttypetmpl.cpp	object	deduce_resulttypetmpl	expected-failure:intentional	deliberate ERROR: instantiation of addB<X> is ill-formed
+details	listings/details/adl.cpp	exe	details_adl	ok	
+details	listings/details/fppm.cpp	exe	details_fppm	expected-failure:fragment	link error: fppm<> is declared but never defined
+details	listings/details/funcoverload1.cpp	exe	details_funcoverload1	ok	
+details	listings/details/funcoverload2.cpp	exe	details_funcoverload2	ok	
+details	listings/details/implicit.cpp	exe	details_implicit	ok	
+details	listings/details/inject.cpp	exe	details_inject	ok	
+details	listings/details/lazy2.cpp	exe	details_lazy2	expected-failure:config	link error in Debug only (vtable of VirtualClass<int> needs vmem()); Release optimizes it away
+details	listings/details/max.cpp	exe	details_max	ok	
+details	listings/details/nontmpl1.cpp	exe	details_nontmpl1	ok	
+details	listings/details/nontmpl2.cpp	exe	details_nontmpl2	ok	
+details	listings/details/tmplconstr.cpp	exe	details_tmplconstr	ok	
+details	listings/details/tupleoverload.cpp	exe	details_tupleoverload	ok	
+details	listings/details/variadicoverload.cpp	exe	details_variadicoverload	ok	
+details	listings/details/definitions1.hpp	header-driver	details_definitions1_01	ok	
+details	listings/details/definitions2.hpp	header-driver	details_definitions2_02	ok	
+details	listings/details/definitions3.hpp	header-driver	details_definitions3_03	ok	
+details	listings/details/funcoverload1.hpp	header-driver	details_funcoverload1_04	ok	
+details	listings/details/lazy1.hpp	header-driver	details_lazy1_05	expected-failure:config	listing fragment, not self-contained; compiler-dependent (GCC accepts it)
+exprtmpl	listings/exprtmpl/sarray1.cpp	exe	exprtmpl_sarray1	ok	
+exprtmpl	listings/exprtmpl/sarray2.cpp	exe	exprtmpl_sarray2	expected-failure:config	typo in sarrayops2.hpp: undeclared 'orig' inside assert(); only compiles when NDEBUG removes the assert (Release)
+exprtmpl	listings/exprtmpl/exprarray.hpp	header-driver	exprtmpl_exprarray_01	ok	
+exprtmpl	listings/exprtmpl/exprops1.hpp	header-driver	exprtmpl_exprops1_02	ok	
+exprtmpl	listings/exprtmpl/exprops1a.hpp	header-driver	exprtmpl_exprops1a_03	ok	
+exprtmpl	listings/exprtmpl/exprops3.hpp	header-driver	exprtmpl_exprops3_04	ok	
+exprtmpl	listings/exprtmpl/exprops4.hpp	header-driver	exprtmpl_exprops4_05	expected-failure:fragment	listing fragment, not self-contained
+exprtmpl	listings/exprtmpl/exprscalar.hpp	header-driver	exprtmpl_exprscalar_06	ok	
+exprtmpl	listings/exprtmpl/sarray1.hpp	header-driver	exprtmpl_sarray1_07	ok	
+exprtmpl	listings/exprtmpl/sarray2.hpp	header-driver	exprtmpl_sarray2_08	ok	
+exprtmpl	listings/exprtmpl/sarrayops2.hpp	header-driver	exprtmpl_sarrayops2_09	expected-failure:fragment	listing fragment, not self-contained
+exprtmpl	listings/exprtmpl/sarrayops1.hpp	header-driver	exprtmpl_sarrayops1_10	ok	prereqs: exprtmpl/exprarray.hpp
+exprtmpl	listings/exprtmpl/exprops2.hpp	header-driver	exprtmpl_exprops2_11	ok	prereqs: exprtmpl/exprops1.hpp exprtmpl/exprarray.hpp
+inherit	listings/inherit/countertest.cpp	exe	inherit_countertest	ok	
+inherit	listings/inherit/ebco1.cpp	exe	inherit_ebco1	ok	
+inherit	listings/inherit/ebco2.cpp	exe	inherit_ebco2	ok	
+inherit	listings/inherit/empty.cpp	exe	inherit_empty	ok	
+inherit	listings/inherit/equalitycomparable.cpp	exe	inherit_equalitycomparable	ok	
+inherit	listings/inherit/projectioniterator.cpp	exe	inherit_projectioniterator	expected-failure:fragment	snippet: Person and project() not defined here
+inherit	listings/inherit/virtual.cpp	exe	inherit_virtual	ok	
+inherit	listings/inherit/wrapper.cpp	exe	inherit_wrapper	expected-failure:intentional	deliberate ERROR: foo(s) not found by ADL
+inherit	listings/inherit/basememberpair.hpp	header-driver	inherit_basememberpair_01	ok	
+inherit	listings/inherit/iteratorfacadeaccessskel.hpp	header-driver	inherit_iteratorfacadeaccessskel_02	ok	
+inherit	listings/inherit/iteratorfacadeskel.hpp	header-driver	inherit_iteratorfacadeskel_03	expected-failure:fragment	listing fragment, not self-contained
+inherit	listings/inherit/listnode.hpp	header-driver	inherit_listnode_04	ok	
+inherit	listings/inherit/listnodeiterator0.hpp	header-driver	inherit_listnodeiterator0_05	expected-failure:fragment	listing fragment, not self-contained
+inherit	listings/inherit/objectcounter.hpp	header-driver	inherit_objectcounter_06	ok	
+inherit	listings/inherit/person.hpp	header-driver	inherit_person_07	ok	
+inherit	listings/inherit/projectioniteratorskel.hpp	header-driver	inherit_projectioniteratorskel_08	expected-failure:fragment	listing fragment, not self-contained
+meta	listings/meta/sqrt1.cpp	exe	meta_sqrt1	ok	
+meta	listings/meta/unruh.cpp	exe	meta_unruh	expected-failure:intentional	Unruh's program: deliberately ill-formed
+meta	listings/meta/ifthenelse.hpp	header-driver	meta_ifthenelse_01	ok	
+meta	listings/meta/pow3const.hpp	header-driver	meta_pow3const_02	ok	
+meta	listings/meta/pow3enum.hpp	header-driver	meta_pow3enum_03	ok	
+meta	listings/meta/ratio.hpp	header-driver	meta_ratio_04	ok	
+meta	listings/meta/removeallextents.hpp	header-driver	meta_removeallextents_05	ok	
+meta	listings/meta/sqrt1.hpp	header-driver	meta_sqrt1_06	ok	
+meta	listings/meta/sqrt2.hpp	header-driver	meta_sqrt2_07	expected-failure:fragment	listing fragment, not self-contained
+meta	listings/meta/sqrtconstexpr.hpp	header-driver	meta_sqrtconstexpr_08	ok	
+meta	listings/meta/duration.hpp	header-driver	meta_duration_09	ok	prereqs: meta/ratio.hpp
+meta	listings/meta/ratioadd.hpp	header-driver	meta_ratioadd_10	ok	prereqs: meta/ratio.hpp
+meta	listings/meta/durationadd.hpp	header-driver	meta_durationadd_11	ok	prereqs: meta/ratio.hpp meta/duration.hpp meta/ratioadd.hpp
+names	listings/names/anglebrackethack.cpp	exe	names_anglebrackethack	expected-failure:config	demonstrates the angle-bracket hack; rejected by Clang, accepted by GCC (compiler-dependent)
+overload	listings/overload/initlist.cpp	exe	overload_initlist	ok	
+overload	listings/overload/initlistctor.cpp	exe	overload_initlistctor	ok	
+overload	listings/overload/initlistovl.cpp	exe	overload_initlistovl	ok	
+poly	listings/poly/dynapoly.cpp	exe	poly_dynapoly	expected-failure:bug	typo in book listing: std::size_type does not exist (std::size_t)
+poly	listings/poly/printmax.cpp	exe	poly_printmax	ok	
+poly	listings/poly/staticpoly.cpp	exe	poly_staticpoly	expected-failure:fragment	link error: Line/Circle members are declared but not defined in statichier.hpp
+poly	listings/poly/MyClass.hpp	header-driver	poly_MyClass_01	ok	
+poly	listings/poly/conceptspoly.hpp	header-driver	poly_conceptspoly_02	expected-failure:fragment	listing fragment, not self-contained
+poly	listings/poly/conceptsreq.hpp	header-driver	poly_conceptsreq_03	expected-failure:fragment	listing fragment, not self-contained
+poly	listings/poly/coord.hpp	header-driver	poly_coord_04	ok	
+poly	listings/poly/dynahier.hpp	header-driver	poly_dynahier_05	ok	
+poly	listings/poly/statichier.hpp	header-driver	poly_statichier_06	ok	
+traits	listings/traits/accum1.cpp	exe	traits_accum1	ok	
+traits	listings/traits/accum6.cpp	exe	traits_accum6	ok	
+traits	listings/traits/decay.cpp	exe	traits_decay	ok	
+traits	listings/traits/elementtype.cpp	exe	traits_elementtype	ok	
+traits	listings/traits/hasmember.cpp	exe	traits_hasmember	ok	
+traits	listings/traits/hastype.cpp	exe	traits_hastype	ok	
+traits	listings/traits/isfundatest.cpp	exe	traits_isfundatest	ok	
+traits	listings/traits/issame.cpp	exe	traits_issame	ok	
+traits	listings/traits/isvalid1.cpp	exe	traits_isvalid1	ok	
+traits	listings/traits/isvalid2.cpp	exe	traits_isvalid2	ok	
+traits	listings/traits/passbyvalue.cpp	exe	traits_passbyvalue	ok	
+traits	listings/traits/rparam1.cpp	exe	traits_rparam1	ok	
+traits	listings/traits/rparam2.cpp	exe	traits_rparam2	ok	
+traits	listings/traits/sizeof.cpp	exe	traits_sizeof	ok	
+traits	listings/traits/accum0.hpp	header-driver	traits_accum0_01	ok	
+traits	listings/traits/accum1.hpp	header-driver	traits_accum1_02	ok	
+traits	listings/traits/accum2.hpp	header-driver	traits_accum2_03	ok	
+traits	listings/traits/accum3.hpp	header-driver	traits_accum3_04	ok	
+traits	listings/traits/accum5.hpp	header-driver	traits_accum5_05	ok	
+traits	listings/traits/accum6.hpp	header-driver	traits_accum6_06	ok	
+traits	listings/traits/accum7.hpp	header-driver	traits_accum7_07	ok	
+traits	listings/traits/accumtraits2.hpp	header-driver	traits_accumtraits2_08	ok	
+traits	listings/traits/accumtraits3.hpp	header-driver	traits_accumtraits3_09	ok	
+traits	listings/traits/accumtraits4.hpp	header-driver	traits_accumtraits4_10	ok	
+traits	listings/traits/accumtraits4bigint.hpp	header-driver	traits_accumtraits4bigint_11	expected-failure:fragment	listing fragment, not self-contained
+traits	listings/traits/addreference.hpp	header-driver	traits_addreference_12	ok	
+traits	listings/traits/boolconstant.hpp	header-driver	traits_boolconstant_13	ok	
+traits	listings/traits/decay.hpp	header-driver	traits_decay_14	ok	
+traits	listings/traits/elementtype.hpp	header-driver	traits_elementtype_15	ok	
+traits	listings/traits/hasbegin.hpp	header-driver	traits_hasbegin_16	ok	
+traits	listings/traits/hasless.hpp	header-driver	traits_hasless_17	ok	
+traits	listings/traits/hasmember.hpp	header-driver	traits_hasmember_18	ok	
+traits	listings/traits/hasplus.hpp	header-driver	traits_hasplus_19	ok	
+traits	listings/traits/hassizetype.hpp	header-driver	traits_hassizetype_20	ok	
+traits	listings/traits/hastype.hpp	header-driver	traits_hastype_21	ok	
+traits	listings/traits/hasvarious.hpp	header-driver	traits_hasvarious_22	ok	
+traits	listings/traits/ifthenelse.hpp	header-driver	traits_ifthenelse_23	ok	
+traits	listings/traits/isarray.hpp	header-driver	traits_isarray_24	ok	
+traits	listings/traits/isclass.hpp	header-driver	traits_isclass_25	ok	
+traits	listings/traits/isconvertible.hpp	header-driver	traits_isconvertible_26	ok	
+traits	listings/traits/isdefaultconstructible1.hpp	header-driver	traits_isdefaultconstructible1_27	ok	
+traits	listings/traits/isdefaultconstructible2.hpp	header-driver	traits_isdefaultconstructible2_28	ok	
+traits	listings/traits/isdefaultconstructible3.hpp	header-driver	traits_isdefaultconstructible3_29	ok	
+traits	listings/traits/isfunction.hpp	header-driver	traits_isfunction_30	ok	
+traits	listings/traits/isfunda.hpp	header-driver	traits_isfunda_31	ok	
+traits	listings/traits/islvaluereference.hpp	header-driver	traits_islvaluereference_32	ok	
+traits	listings/traits/isnothrowmoveconstructible1.hpp	header-driver	traits_isnothrowmoveconstructible1_33	ok	
+traits	listings/traits/isnothrowmoveconstructible2.hpp	header-driver	traits_isnothrowmoveconstructible2_34	ok	
+traits	listings/traits/ispointer.hpp	header-driver	traits_ispointer_35	ok	
+traits	listings/traits/ispointertomember.hpp	header-driver	traits_ispointertomember_36	ok	
+traits	listings/traits/isreference.hpp	header-driver	traits_isreference_37	ok	
+traits	listings/traits/isrvaluereference.hpp	header-driver	traits_isrvaluereference_38	ok	
+traits	listings/traits/issame.hpp	header-driver	traits_issame_39	ok	
+traits	listings/traits/issame0.hpp	header-driver	traits_issame0_40	ok	
+traits	listings/traits/isvalid.hpp	header-driver	traits_isvalid_41	ok	
+traits	listings/traits/plus1.hpp	header-driver	traits_plus1_42	ok	
+traits	listings/traits/plus2.hpp	header-driver	traits_plus2_43	ok	
+traits	listings/traits/plus3.hpp	header-driver	traits_plus3_44	ok	
+traits	listings/traits/removeconst.hpp	header-driver	traits_removeconst_45	ok	
+traits	listings/traits/removecv.hpp	header-driver	traits_removecv_46	ok	
+traits	listings/traits/removereference.hpp	header-driver	traits_removereference_47	ok	
+traits	listings/traits/removevolatile.hpp	header-driver	traits_removevolatile_48	ok	
+traits	listings/traits/rparam.hpp	header-driver	traits_rparam_49	ok	
+traits	listings/traits/rparamcls.hpp	header-driver	traits_rparamcls_50	ok	
+traits	listings/traits/smallestint.hpp	header-driver	traits_smallestint_51	ok	
+traits	listings/traits/sumpolicy1.hpp	header-driver	traits_sumpolicy1_52	ok	
+traits	listings/traits/sumpolicy2.hpp	header-driver	traits_sumpolicy2_53	ok	
+traits	listings/traits/isenum.hpp	header-driver	traits_isenum_54	ok	prereqs: traits/isfunda.hpp traits/ispointer.hpp traits/isreference.hpp traits/isarray.hpp traits/ispointertomember.hpp traits/isfunction.hpp traits/isclass.hpp
+tuples	listings/tuples/compressedtuple1.cpp	exe	tuples_compressedtuple1	ok	
+tuples	listings/tuples/indexsort.cpp	exe	tuples_indexsort	ok	
+tuples	listings/tuples/apply.hpp	header-driver	tuples_apply_01	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/copycounter.hpp	header-driver	tuples_copycounter_02	ok	
+tuples	listings/tuples/copycountertest.hpp	header-driver	tuples_copycountertest_03	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/ctvalue.hpp	header-driver	tuples_ctvalue_04	ok	
+tuples	listings/tuples/indexlistreverse.hpp	header-driver	tuples_indexlistreverse_05	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/literals.hpp	header-driver	tuples_literals_06	ok	
+tuples	listings/tuples/makeindexlist.hpp	header-driver	tuples_makeindexlist_07	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/popback.hpp	header-driver	tuples_popback_08	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/reverse.hpp	header-driver	tuples_reverse_09	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/select.hpp	header-driver	tuples_select_10	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/splat.hpp	header-driver	tuples_splat_11	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/tuple0.hpp	header-driver	tuples_tuple0_12	ok	
+tuples	listings/tuples/tupleelt1.hpp	header-driver	tuples_tupleelt1_13	ok	
+tuples	listings/tuples/tupleelt2.hpp	header-driver	tuples_tupleelt2_14	ok	
+tuples	listings/tuples/tuplesort.hpp	header-driver	tuples_tuplesort_15	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/tuplesorttest.hpp	header-driver	tuples_tuplesorttest_16	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/tuplestorage2.hpp	header-driver	tuples_tuplestorage2_17	expected-failure:fragment	listing fragment, not self-contained
+tuples	listings/tuples/constantget.hpp	header-driver	tuples_constantget_18	ok	prereqs: tuples/tupleelt1.hpp
+tuples	listings/tuples/maketuple.hpp	header-driver	tuples_maketuple_19	ok	prereqs: tuples/tuple0.hpp
+tuples	listings/tuples/pushback.hpp	header-driver	tuples_pushback_20	ok	prereqs: tuples/tuple0.hpp
+tuples	listings/tuples/tupleeq.hpp	header-driver	tuples_tupleeq_21	ok	prereqs: tuples/tuple0.hpp
+tuples	listings/tuples/tupleget.hpp	header-driver	tuples_tupleget_22	ok	prereqs: tuples/tuple0.hpp
+tuples	listings/tuples/tupleio.hpp	header-driver	tuples_tupleio_23	ok	prereqs: tuples/tuple0.hpp
+tuples	listings/tuples/tuplestorage3.hpp	header-driver	tuples_tuplestorage3_24	ok	prereqs: tuples/tupleelt1.hpp
+tuples	listings/tuples/popfront.hpp	header-driver	tuples_popfront_25	ok	prereqs: tuples/tuple0.hpp typelist/conspopfront.hpp
+tuples	listings/tuples/tuplestorage1.hpp	header-driver	tuples_tuplestorage1_26	ok	prereqs: tuples/tupleelt1.hpp tuples/constantget.hpp
+tuples	listings/tuples/pushfront.hpp	header-driver	tuples_pushfront_27	ok	prereqs: tuples/tuple0.hpp typelist/cons.hpp typelist/conspushfront.hpp
+tuples	listings/tuples/tupletypelist.hpp	header-driver	tuples_tupletypelist_28	ok	prereqs: tuples/tuple0.hpp typelist/cons.hpp typelist/consisempty.hpp typelist/consfront.hpp typelist/conspopfront.hpp typelist/conspushfront.hpp typelist/typelist.hpp typelist/typelistpushback.hpp
+typelist	listings/typelist/addconst.hpp	header-driver	typelist_addconst_01	ok	
+typelist	listings/typelist/cons.hpp	header-driver	typelist_cons_02	ok	
+typelist	listings/typelist/consfront.hpp	header-driver	typelist_consfront_03	ok	
+typelist	listings/typelist/conslisttest.hpp	header-driver	typelist_conslisttest_04	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/conspopfront.hpp	header-driver	typelist_conspopfront_05	ok	
+typelist	listings/typelist/ctvalue.hpp	header-driver	typelist_ctvalue_06	ok	
+typelist	listings/typelist/ctvalue17.hpp	header-driver	typelist_ctvalue17_07	ok	
+typelist	listings/typelist/genericlargesttype.hpp	header-driver	typelist_genericlargesttype_08	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/identity.hpp	header-driver	typelist_identity_09	ok	
+typelist	listings/typelist/insertionsort.hpp	header-driver	typelist_insertionsort_10	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/insertionsorttest.hpp	header-driver	typelist_insertionsorttest_11	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/insertsorted.hpp	header-driver	typelist_insertsorted_12	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/largesttype.hpp	header-driver	typelist_largesttype_13	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/largesttypeacc.hpp	header-driver	typelist_largesttypeacc_14	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/largesttypeacc0.hpp	header-driver	typelist_largesttypeacc0_15	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/select.hpp	header-driver	typelist_select_16	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/typelist.hpp	header-driver	typelist_typelist_17	ok	
+typelist	listings/typelist/typelistpopback.hpp	header-driver	typelist_typelistpopback_18	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/valuelisttest.hpp	header-driver	typelist_valuelisttest_19	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/variadictransform.hpp	header-driver	typelist_variadictransform_20	expected-failure:fragment	listing fragment, not self-contained
+typelist	listings/typelist/consisempty.hpp	header-driver	typelist_consisempty_21	ok	prereqs: typelist/cons.hpp
+typelist	listings/typelist/conspushfront.hpp	header-driver	typelist_conspushfront_22	ok	prereqs: typelist/cons.hpp
+typelist	listings/typelist/multiply.hpp	header-driver	typelist_multiply_23	ok	prereqs: typelist/ctvalue.hpp
+typelist	listings/typelist/typelistfront.hpp	header-driver	typelist_typelistfront_24	ok	prereqs: typelist/typelist.hpp
+typelist	listings/typelist/typelistisempty.hpp	header-driver	typelist_typelistisempty_25	ok	prereqs: typelist/typelist.hpp
+typelist	listings/typelist/typelistpopfront.hpp	header-driver	typelist_typelistpopfront_26	ok	prereqs: typelist/typelist.hpp
+typelist	listings/typelist/typelistpushback.hpp	header-driver	typelist_typelistpushback_27	ok	prereqs: typelist/typelist.hpp
+typelist	listings/typelist/typelistpushfront.hpp	header-driver	typelist_typelistpushfront_28	ok	prereqs: typelist/typelist.hpp
+typelist	listings/typelist/cttypelist.hpp	header-driver	typelist_cttypelist_29	ok	prereqs: typelist/ctvalue.hpp typelist/typelist.hpp
+typelist	listings/typelist/nthelement.hpp	header-driver	typelist_nthelement_30	ok	prereqs: typelist/conspopfront.hpp typelist/consfront.hpp
+typelist	listings/typelist/accumulate.hpp	header-driver	typelist_accumulate_31	ok	prereqs: typelist/cons.hpp typelist/consisempty.hpp typelist/conspopfront.hpp typelist/consfront.hpp
+typelist	listings/typelist/genericpushback.hpp	header-driver	typelist_genericpushback_32	ok	prereqs: typelist/cons.hpp typelist/consisempty.hpp typelist/consfront.hpp typelist/conspopfront.hpp typelist/conspushfront.hpp
+typelist	listings/typelist/transform.hpp	header-driver	typelist_transform_33	ok	prereqs: typelist/cons.hpp typelist/consisempty.hpp typelist/conspopfront.hpp typelist/consfront.hpp typelist/conspushfront.hpp
+typelist	listings/typelist/typelistreverse.hpp	header-driver	typelist_typelistreverse_34	ok	prereqs: typelist/cons.hpp typelist/consisempty.hpp typelist/conspopfront.hpp typelist/consfront.hpp typelist/typelist.hpp typelist/typelistpushback.hpp
+typelist	listings/typelist/valuelist.hpp	header-driver	typelist_valuelist_35	ok	prereqs: typelist/cons.hpp typelist/consisempty.hpp typelist/consfront.hpp typelist/ctvalue.hpp typelist/conspopfront.hpp typelist/conspushfront.hpp typelist/typelist.hpp typelist/typelistpushback.hpp
+typeoverload	listings/typeoverload/min.cpp	exe	typeoverload_min	expected-failure:bug	contains stray LaTeX markup (vspace lines) left in the listing
+typeoverload	listings/typeoverload/advance2.hpp	header-driver	typeoverload_advance2_01	expected-failure:fragment	listing fragment, not self-contained
+typeoverload	listings/typeoverload/advance3.hpp	header-driver	typeoverload_advance3_02	expected-failure:fragment	listing fragment, not self-contained
+typeoverload	listings/typeoverload/container1.hpp	header-driver	typeoverload_container1_03	ok	
+typeoverload	listings/typeoverload/container4.hpp	header-driver	typeoverload_container4_04	expected-failure:fragment	listing fragment, not self-contained
+typeoverload	listings/typeoverload/enableif.hpp	header-driver	typeoverload_enableif_05	ok	
+typeoverload	listings/typeoverload/iscontextualbool.hpp	header-driver	typeoverload_iscontextualbool_06	expected-failure:fragment	listing fragment, not self-contained
+typeoverload	listings/typeoverload/isconvertible.hpp	header-driver	typeoverload_isconvertible_07	ok	
+typeoverload	listings/typeoverload/lessresult.hpp	header-driver	typeoverload_lessresult_08	ok	
+typeoverload	listings/typeoverload/min.hpp	header-driver	typeoverload_min_09	ok	
+typeoverload	listings/typeoverload/min3.hpp	header-driver	typeoverload_min3_10	expected-failure:fragment	listing fragment, not self-contained
+typeoverload	listings/typeoverload/min2.hpp	header-driver	typeoverload_min2_11	ok	prereqs: typeoverload/enableif.hpp
+utils	listings/utils/isconstructible.cpp	exe	utils_isconstructible	ok	
+utils	listings/utils/traits1.cpp	exe	utils_traits1	ok	
+utils	listings/utils/traits2.cpp	exe	utils_traits2	ok	
+variant	listings/variant/printrec.cpp	exe	variant_printrec	expected-failure:missing	includes variant-all.hpp, which is not in the archive
+variant	listings/variant/variant.cpp	exe	variant_variant	expected-failure:missing	includes variant-all.hpp, which is not in the archive
+variant	listings/variant/variantdefaultctor.cpp	exe	variant_variantdefaultctor	expected-failure:missing	includes variant-all.hpp, which is not in the archive
+variant	listings/variant/variantexception.cpp	exe	variant_variantexception	expected-failure:missing	includes variant-all.hpp, which is not in the archive
+variant	listings/variant/variantpromote.cpp	exe	variant_variantpromote	expected-failure:missing	includes variant-all.hpp, which is not in the archive
+variant	listings/variant/visit.cpp	exe	variant_visit	expected-failure:fragment	variant.hpp is a listing fragment; pieces are not assembled in the archive
+variant	listings/variant/commontype.hpp	header-driver	variant_commontype_01	ok	
+variant	listings/variant/findindexof.hpp	header-driver	variant_findindexof_02	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variant.hpp	header-driver	variant_variant_03	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantchoice.hpp	header-driver	variant_variantchoice_04	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantchoiceassign.hpp	header-driver	variant_variantchoiceassign_05	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantchoicedestroy.hpp	header-driver	variant_variantchoicedestroy_06	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantchoiceinit.hpp	header-driver	variant_variantchoiceinit_07	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantcopyassign.hpp	header-driver	variant_variantcopyassign_08	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantcopyctor.hpp	header-driver	variant_variantcopyctor_09	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantcopyctortmpl.hpp	header-driver	variant_variantcopyctortmpl_10	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantdefaultctor.hpp	header-driver	variant_variantdefaultctor_11	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantdestroy.hpp	header-driver	variant_variantdestroy_12	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantdestroy17.hpp	header-driver	variant_variantdestroy17_13	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantempty.hpp	header-driver	variant_variantempty_14	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantget.hpp	header-driver	variant_variantget_15	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantis.hpp	header-driver	variant_variantis_16	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantmovector.hpp	header-driver	variant_variantmovector_17	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantstorage.hpp	header-driver	variant_variantstorage_18	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantstorageastuple.hpp	header-driver	variant_variantstorageastuple_19	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantstorageasunion.hpp	header-driver	variant_variantstorageasunion_20	ok	
+variant	listings/variant/variantvisit.hpp	header-driver	variant_variantvisit_21	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantvisitimpl.hpp	header-driver	variant_variantvisitimpl_22	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantvisitresult.hpp	header-driver	variant_variantvisitresult_23	ok	
+variant	listings/variant/variantvisitresultcommon.hpp	header-driver	variant_variantvisitresultcommon_24	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/variantvisitresultstd.hpp	header-driver	variant_variantvisitresultstd_25	expected-failure:fragment	listing fragment, not self-contained
+variant	listings/variant/accumulate.hpp	header-driver	variant_accumulate_26	ok	prereqs: typelist/cons.hpp typelist/consisempty.hpp typelist/conspopfront.hpp typelist/consfront.hpp

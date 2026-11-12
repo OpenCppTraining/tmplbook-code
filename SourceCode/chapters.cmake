@@ -1,0 +1,20 @@
+# Generated: chapters in book order of the archive (alphabetical).
+set(TMPLBOOK_CHAPTERS
+  basics
+  bridge
+  debugging
+  deduce
+  details
+  exprtmpl
+  inherit
+  meta
+  names
+  overload
+  poly
+  traits
+  tuples
+  typelist
+  typeoverload
+  utils
+  variant
+)

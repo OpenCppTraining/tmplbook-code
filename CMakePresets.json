@@ -1,0 +1,62 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": { "major": 3, "minor": 21, "patch": 0 },
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_CONFIGURATION_TYPES": "Debug;RelWithDebInfo;Release",
+        "CMAKE_CXX_STANDARD": "17",
+        "CMAKE_CXX_STANDARD_REQUIRED": "ON",
+        "CMAKE_CXX_EXTENSIONS": "OFF",
+        "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
+      }
+    },
+    {
+      "name": "macos",
+      "displayName": "macOS (Darwin, AppleClang)",
+      "inherits": "base",
+      "generator": "Ninja Multi-Config",
+      "condition": { "type": "equals", "lhs": "${hostSystemName}", "rhs": "Darwin" }
+    },
+    {
+      "name": "ubuntu",
+      "displayName": "Ubuntu (Linux, GCC)",
+      "inherits": "base",
+      "generator": "Ninja Multi-Config",
+      "condition": { "type": "equals", "lhs": "${hostSystemName}", "rhs": "Linux" }
+    },
+    {
+      "name": "windows",
+      "displayName": "Windows (MSVC, Visual Studio 2022)",
+      "inherits": "base",
+      "generator": "Visual Studio 17 2022",
+      "architecture": { "value": "x64", "strategy": "set" },
+      "condition": { "type": "equals", "lhs": "${hostSystemName}", "rhs": "Windows" }
+    }
+  ],
+  "buildPresets": [
+    { "name": "macos-debug",            "configurePreset": "macos",   "configuration": "Debug" },
+    { "name": "macos-relwithdebinfo",   "configurePreset": "macos",   "configuration": "RelWithDebInfo" },
+    { "name": "macos-release",          "configurePreset": "macos",   "configuration": "Release" },
+    { "name": "ubuntu-debug",           "configurePreset": "ubuntu",  "configuration": "Debug" },
+    { "name": "ubuntu-relwithdebinfo",  "configurePreset": "ubuntu",  "configuration": "RelWithDebInfo" },
+    { "name": "ubuntu-release",         "configurePreset": "ubuntu",  "configuration": "Release" },
+    { "name": "windows-debug",          "configurePreset": "windows", "configuration": "Debug" },
+    { "name": "windows-relwithdebinfo", "configurePreset": "windows", "configuration": "RelWithDebInfo" },
+    { "name": "windows-release",        "configurePreset": "windows", "configuration": "Release" }
+  ],
+  "testPresets": [
+    { "name": "macos-debug",            "configurePreset": "macos",   "configuration": "Debug" },
+    { "name": "macos-relwithdebinfo",   "configurePreset": "macos",   "configuration": "RelWithDebInfo" },
+    { "name": "macos-release",          "configurePreset": "macos",   "configuration": "Release" },
+    { "name": "ubuntu-debug",           "configurePreset": "ubuntu",  "configuration": "Debug" },
+    { "name": "ubuntu-relwithdebinfo",  "configurePreset": "ubuntu",  "configuration": "RelWithDebInfo" },
+    { "name": "ubuntu-release",         "configurePreset": "ubuntu",  "configuration": "Release" },
+    { "name": "windows-debug",          "configurePreset": "windows", "configuration": "Debug" },
+    { "name": "windows-relwithdebinfo", "configurePreset": "windows", "configuration": "RelWithDebInfo" },
+    { "name": "windows-release",        "configurePreset": "windows", "configuration": "Release" }
+  ]
+}
